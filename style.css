@@ -1,0 +1,74 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Gantari', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Lobster', cursive;
+    font-family: 'Oleo Script', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+
+.top-banner {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.top-banner-container {
+    width: 50%;
+
+
+}
+
+.top-banner-content {
+    padding-left: 52px;
+}
+
+.top-banner-content p {
+    color: gray;
+    font-size: 18px;
+    line-height: 30px;
+    ;
+    text-align: justify;
+    ;
+}
+
+.common-btn {
+    font-size: 20px;
+    background-image: linear-gradient(70deg, red, orange);
+    padding: 10px 40px;
+    border: none;
+    border-radius: 7px;
+    margin: 20px 0px;
+}
+
+.common-btn a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+    ;
+}
+
+.common-title {
+    font-size: 20px;
+    padding: 20px 0px;
+}
+
+.top-banner-image {
+    width: 50%;
+}
+
+.top-banner-image img {
+    width: 100%;
+}
+
+.top-banner-title {
+    font-size: 70px;
+    color: tomato;
+    line-height: 121px;
+
+    ;
+}
