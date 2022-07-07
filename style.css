@@ -13,20 +13,28 @@
     display: flex;
     width: 100%;
     height: 100vh;
+    margin-bottom: 200px;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+
+    ;
+
+
 
 }
 
-.top-banner-container {
+.banner-container {
     width: 50%;
 
 
 }
 
-.top-banner-content {
+.banner-content {
     padding-left: 52px;
 }
 
-.top-banner-content p {
+.banner-content p {
     color: gray;
     font-size: 18px;
     line-height: 30px;
@@ -57,18 +65,85 @@
     padding: 20px 0px;
 }
 
-.top-banner-image {
+.banner-image {
     width: 50%;
 }
 
-.top-banner-image img {
-    width: 100%;
+.banner-image img {
+    width: 70%;
+    padding-left: 56px;
 }
 
-.top-banner-title {
+.banner-title {
     font-size: 70px;
     color: tomato;
     line-height: 121px;
 
+    ;
+}
+
+.seciton2 {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 100px;
+    ;
+}
+
+.experience-section {
+    width: 100%;
+    height: 100vh;
+
+}
+
+.experience-title {
+    text-align: center;
+    ;
+    font-size: 33px;
+    margin-bottom: 50px;
+    ;
+
+
+
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    ;
+}
+
+.card1 {
+    width: 350px;
+    height: 300px;
+    padding: 20px;
+    background: gray;
+    border-radius: 7px;
+    text-align: justify;
+    margin: 0px 20px;
+}
+
+.card1 h1 {
+    font-size: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+    ;
+}
+
+.footer-part {
+    background-color: tomato;
+
+    padding: 20px 40px;
+    text-align: center;
+    ;
+
+}
+
+#title-style {
+    font-family: 'Oleo Script', cursive;
+    color: rgb(247, 247, 247);
+    font-size: 30px;
     ;
 }
